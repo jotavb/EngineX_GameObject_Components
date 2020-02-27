@@ -142,41 +142,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="COGBall.h" />
-    <ClInclude Include="COGBoxShape.h" />
-    <ClInclude Include="COGCircleShape.h" />
-    <ClInclude Include="COGPaddle.h" />
-    <ClInclude Include="COGPhysics.h" />
-    <ClInclude Include="COGShape.h" />
-    <ClInclude Include="COGTransform.h" />
-    <ClInclude Include="Component.h" />
-    <ClInclude Include="ComponentType.h" />
     <ClInclude Include="Engine\Public\EngineInterface.h" />
     <ClInclude Include="Engine\Public\EngineTypes.h" />
     <ClInclude Include="Engine\Public\SDL.h" />
-    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Game\Private\COGBall.h" />
+    <ClInclude Include="Game\Private\COGBoxShape.h" />
+    <ClInclude Include="Game\Private\COGCircleShape.h" />
+    <ClInclude Include="Game\Private\COGPaddle.h" />
+    <ClInclude Include="Game\Private\COGPhysics.h" />
+    <ClInclude Include="Game\Private\COGShape.h" />
+    <ClInclude Include="Game\Private\COGTransform.h" />
+    <ClInclude Include="Game\Private\Component.h" />
+    <ClInclude Include="Game\Private\ComponentType.h" />
+    <ClInclude Include="Game\Private\GameObject.h" />
+    <ClInclude Include="Game\Private\GOTag.h" />
+    <ClInclude Include="Game\Private\IPhysicsCollisionEvent.h" />
+    <ClInclude Include="Game\Private\MathLibrary.h" />
+    <ClInclude Include="Game\Private\PlayerController.h" />
+    <ClInclude Include="Game\Private\Utils.h" />
     <ClInclude Include="Game\Public\GameInterface.h" />
-    <ClInclude Include="GOTag.h" />
-    <ClInclude Include="IPhysicsCollisionEvent.h" />
-    <ClInclude Include="MathLibrary.h" />
-    <ClInclude Include="PlayerController.h" />
-    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="COGBall.cpp" />
-    <ClCompile Include="COGBoxShape.cpp" />
-    <ClCompile Include="COGCircleShape.cpp" />
-    <ClCompile Include="COGPaddle.cpp" />
-    <ClCompile Include="COGPhysics.cpp" />
-    <ClCompile Include="COGShape.cpp" />
-    <ClCompile Include="Component.cpp" />
-    <ClCompile Include="ComponentType.cpp" />
-    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Game\Private\COGBall.cpp" />
+    <ClCompile Include="Game\Private\COGBoxShape.cpp" />
+    <ClCompile Include="Game\Private\COGCircleShape.cpp" />
+    <ClCompile Include="Game\Private\COGPaddle.cpp" />
+    <ClCompile Include="Game\Private\COGPhysics.cpp" />
+    <ClCompile Include="Game\Private\COGShape.cpp" />
+    <ClCompile Include="Game\Private\Component.cpp" />
+    <ClCompile Include="Game\Private\ComponentType.cpp" />
     <ClCompile Include="Game\Private\Game.cpp" />
+    <ClCompile Include="Game\Private\GameObject.cpp" />
+    <ClCompile Include="Game\Private\GOGTransform.cpp" />
+    <ClCompile Include="Game\Private\GOTag.cpp" />
     <ClCompile Include="Game\Private\Main.cpp" />
-    <ClCompile Include="GOGTransform.cpp" />
-    <ClCompile Include="GOTag.cpp" />
-    <ClCompile Include="PlayerController.cpp" />
+    <ClCompile Include="Game\Private\PlayerController.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,3 @@
-
 #include "ComponentType.h"
 
 const char* ComponentTypeToString(ComponentType Value)

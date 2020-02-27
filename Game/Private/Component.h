@@ -1,5 +1,5 @@
 #pragma once
-#include <ComponentType.h>
+#include "ComponentType.h"
 #include <vector>
 #include <algorithm>
 
