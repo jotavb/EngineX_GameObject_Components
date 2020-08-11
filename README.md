@@ -4,7 +4,7 @@ This is one of the C++ assignments that I did at Vancouver Film School Programmi
 
 ### Getting Started
 
-Open the solution and make sure you are running x86 and the Windows SDK is 10.0.18362.0 (Version that I tested)
+Run the build inside the build folder or open the solution and make sure you are running x86 and the Windows SDK is 10.0.18362.0 to build it(Version that I tested)
 
 ### Requirement
 
