@@ -1,4 +1,4 @@
-# Pong Game in C++ (Using EngineX Student version)
+# Pong Game in C++ with GameObject-Component Arquitecture (Using EngineX Student version)
 
 This is one of the C++ assignments that I did at Vancouver Film School Programming Course using my teacher (James Mansfield) Engine called EngineX
 
