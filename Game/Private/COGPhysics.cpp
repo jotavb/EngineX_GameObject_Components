@@ -79,21 +79,12 @@ bool COGPhysics::IsColliding(COGPhysics* pOther)
 {
 	
 	if (mBoxShape != nullptr && pOther->mBoxShape != nullptr)
-	{		
-		
-		//if (mTransform->Position().x < pOther->mTransform->Position().x + pOther->mBoxShape->Width() / 2.0f  &&
-		//	mTransform->Position().x + mBoxShape->Width() / 2.0f > pOther->mTransform->Position().x &&
-		//	mTransform->Position().y < pOther->mTransform->Position().y + pOther->mBoxShape->Height() / 2.0f &&
-		//	mTransform->Position().y + mBoxShape->Height() / 2.0f > pOther->mTransform->Position().y) {
-		//	return true;			
-		//}
+	{
 		if (abs(mTransform->Position().x - pOther->mTransform->Position().x) * 2 < (mBoxShape->Width() + pOther->mBoxShape->Width()) &&
 			(abs(mTransform->Position().y - pOther->mTransform->Position().y) * 2 < (mBoxShape->Height() + pOther->mBoxShape->Height())))
 		{
 			return true;
 		}
-
-		
 	}
 	else if (mCircleShape != nullptr && pOther->mBoxShape != nullptr)
 	{		
